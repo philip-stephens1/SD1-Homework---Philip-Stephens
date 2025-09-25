@@ -18,9 +18,10 @@ public class App {
         //here's a hint
         int num = sc.nextInt();
         int factorial = 1;
-        for (int i = 0; i <= num; i++){
+        for (int i = 1; i <= num; i++){
             factorial *= i;
-
+        // In this code block we take the input from the user (num) and then use a for loop that starts from 1 (i) and runs until we reach that number (i <- num)
+        // We then multiply the factorial with whatever i is at that current state.
         }
 
         //P3: Ask the user for a number, and then add together every OTHER digit (starting from 1)
@@ -35,6 +36,8 @@ public class App {
             System.out.println(sum);
         }
 
+        // We grab the input from the user which is named input, we then keep a running total which is "sum", we loop from 0 up until the number entered.
+        // We then add the current value of i to the total(sum) and return it back after the loop.
         
 
 
@@ -61,5 +64,11 @@ public class App {
             reverse += word;
 
         }
+        System.out.println(reverse);
+        // We collect a string from the user (word), we create an empty string to build the reversed word.
+        // We make i equal to the length of the word and subtract 1 to loop backwords through the string and add the character to the empty string
+        // We then print out the variable reverse to give the user their word backwards.
     }
+
+
 }
