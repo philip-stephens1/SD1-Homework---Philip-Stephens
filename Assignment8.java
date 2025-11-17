@@ -32,3 +32,6 @@ public class App {
         System.out.println(totalStudentCount); // print out the total amount of names
     };
 }
+
+
+// I learned how to read files and take out information from a certain file and print it out or use it for storing something. This has potential to be incredibly useful.
